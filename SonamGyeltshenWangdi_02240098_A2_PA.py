@@ -29,7 +29,7 @@ def guess_number_game():
         except ValueError:
             print("Enter a valid number.")
 
-    score = max(0, 10 - guess4)
+    score = max(0, 10 - guess)
     overall_score["guess_number"] += score
     print(f"Your score: {score}")
 
